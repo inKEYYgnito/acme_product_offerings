@@ -1,0 +1,30 @@
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#products div {
+  background: tomato;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 5px;
+  width: 45vw;
+  text-align: center;
+  color: white;
+}
+
+#products div ul {
+  text-align: left;
+  word-wrap: break-word;
+}
